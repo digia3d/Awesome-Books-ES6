@@ -1,7 +1,7 @@
-import { bookList } from './modules/BookList.js';
-import header from './components/Header.js';
-import main from './components/MainSection.js';
-import footer from './components/Footer.js';
+import { bookList } from './BookList.js';
+import header from '../components/Header.js';
+import main from '../components/MainSection.js';
+import footer from '../components/Footer.js';
 
 const renderUserInterface = () => {
   document.body.appendChild(header);
